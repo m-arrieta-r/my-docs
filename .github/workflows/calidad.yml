@@ -1,0 +1,19 @@
+name: Calidad
+on:
+  pull_request:
+    paths: ["**.md"]
+jobs:
+  frontmatter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Docs con título y responsable
+        run: node .trunk/bin/trunk-check.mjs frontmatter "{docs,runbooks}/**/*.md" --require title owner
+      - name: Skills con nombre y descripción
+        run: node .trunk/bin/trunk-check.mjs frontmatter "skills/**/SKILL.md" --require name description
+  secciones:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Runbooks y skills con secciones
+        run: node .trunk/bin/trunk-check.mjs sections "{runbooks/**/*.md,skills/**/SKILL.md}" --require "## Cuándo usar" "## Pasos"
