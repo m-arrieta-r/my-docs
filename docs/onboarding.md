@@ -8,8 +8,9 @@ owner: equipo-plataforma
 ## Primera semana
 
 1. Pide acceso a los repositorios del equipo.
-2. Lee la [guía de estilo](guia-de-estilo.md).
-3. Haz tu primer cambio en esta documentación desde Trunk.
+2. 
+3. Lee la [guía de estilo](guia-de-estilo.md).
+4. Haz tu primer cambio en esta documentación desde Trunk.
 
 ## Contactos
 
