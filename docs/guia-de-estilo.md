@@ -5,7 +5,7 @@ owner: equipo-docs
 
 # Guía de estilo
 
-* Escribe frases cortas y claras.
+* Escribe frases cortas.
 * Usa la segunda persona: "configura", no "se configura".
 * Cada página tiene un `title` y un `owner` en el frontmatter.
 
