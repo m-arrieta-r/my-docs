@@ -1,0 +1,7 @@
+# Qué páginas necesitan revisión antes de publicarse. Gana la primera regla que coincida.
+# Lo que no coincide con ninguna se publica al guardar. .trunk/ y .github/ siempre requieren revisión.
+# Una página también puede pedirlo en su frontmatter con `review: required`.
+- path: "runbooks/**"
+  review: required
+- path: "skills/**"
+  review: required

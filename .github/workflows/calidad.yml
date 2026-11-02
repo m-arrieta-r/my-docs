@@ -2,6 +2,10 @@ name: Calidad
 on:
   pull_request:
     paths: ["**.md"]
+  # Borradores de Trunk: los checks corren mientras editas, sin abrir un PR.
+  push:
+    branches: ["trunk/**"]
+    paths: ["**.md"]
 jobs:
   frontmatter:
     runs-on: ubuntu-latest
