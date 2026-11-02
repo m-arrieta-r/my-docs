@@ -7,7 +7,7 @@ owner: equipo-plataforma
 
 ## Cuándo usar
 
-Cuando una alerta crítica se dispara o un cliente reporta una caída.
+Cuando una alerta crítica se dispara o un cliente reporta una caída. Incluye caídas parciales.
 
 ## Pasos
 
