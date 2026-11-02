@@ -9,7 +9,7 @@ owner: equipo-plataforma
 
 Cuando una alerta crítica se dispara o un cliente reporta una caída. Incluye caídas parciales.
 
-## Procedimiento
+## Pasos
 
 1. Declara el incidente en el canal del equipo.
 2. Asigna a una persona como coordinadora.
