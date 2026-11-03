@@ -1,3 +1,0 @@
-# Prueba velocidad
-
-hola
