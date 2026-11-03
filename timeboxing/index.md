@@ -1,6 +1,6 @@
 ---
 icon: 🗓️
 ---
-# Timeboxingb. 1`
+# Timeboxing
 
 ## Top priorities
